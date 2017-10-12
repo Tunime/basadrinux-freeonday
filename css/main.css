@@ -32,7 +32,12 @@ a{
 .nav .nav-menu li{
 	margin: 0 1.5em;
 	padding: 0.2em 0.7em;
-	color: black;
+}
+@media (max-width: 766px) {
+  .nav .nav-menu li{
+		margin: 0 0.5em;
+	padding: 0.2em 0.3em;
+	}
 }
 .nav .nav-menu li a{
 	color: black;
